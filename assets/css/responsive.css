@@ -605,6 +605,14 @@ header .attr-nav + .social_icons {
   max-width: 767px
 ---------------------------------------------------*/
 @media only screen and (max-width: 767px) {
+
+.abouttt{
+    flex-direction: column-reverse;
+}
+
+.col-md-8{
+    margin-top: 25px;
+}
 .h1, h1 {
     font-size: 32px;
 }
@@ -803,7 +811,15 @@ section.pb_70, .pb_70 {
 	padding-top: 100px;
 }
 .about_img {
-    margin-bottom: 30px;
+    margin-bottom: 15px;
+    margin-top:25px;
+}
+
+.about_img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
 }
 .icon_box_style_3 i {
     height: 60px;
@@ -1063,9 +1079,7 @@ section.pb_70, .pb_70 {
 .content_overlay_bg {
     padding: 20px;
 }
-.btn-default {
-	padding: 10px 22px;
-}
+
 .btn-black, .btn-outline-white, .btn-outline-black, .btn-outline-default {
 	padding: 10px 22px;
 }
@@ -1169,9 +1183,7 @@ section.pb_70, .pb_70 {
 .comment_info.reply {
     padding-left: 40px;
 }
-.btn-default.btn-addtocart {
-	padding: 5px 20px;
-}
+
 .comment-date {
     margin-left: 0;
     border-left: 0;

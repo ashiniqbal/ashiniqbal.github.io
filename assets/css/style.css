@@ -143,17 +143,8 @@ button:focus {
 .btn.active:focus, .btn:active:focus {
 	box-shadow: none !important;
 }
-.btn-default {
-	background-color: #27E278;
-	border: 2px solid #27E278;
-	color: #ffffff !important;
-	padding: 10px 30px;
-}
-.btn-default:hover {
-	background-color: #27CE78;
-	border-color: #27CE78;
-	color: #fff;
-}
+
+
 .btn-white {
     background-color: #ffffff;
     border-color: #fff;
@@ -243,55 +234,23 @@ button:focus {
 .btn.btn-lg i {
     font-size: 28px;
 }
-.btn-aylen,
-.btn-aylen2 {
-	position: relative;
-	overflow: hidden;
-	transition: all 0.3s ease-in-out;
-	z-index: 1;
-}
-.btn-aylen::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    background-color: #fff;
-    -moz-transform: scale(0);
-	-webkit-transform: scale(0);
-	transform: scale(0);
-	transition: all 0.3s ease-in-out;
-}
-.btn-aylen:hover:before {
-    -moz-transform: scale(1);
-	-webkit-transform: scale(1);
-	transform: scale(1);
-	z-index: -1;
-}
-.btn-default.btn-aylen:hover {
-	color: #27E278 !important;
-	z-index: 0;
-}
-.btn-aylen2::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    background-color: #fff;
-    -moz-transform: scale(1);
-	-webkit-transform: scale(1);
-	transform: scale(1);
-	transition: all 0.3s ease-in-out;
-	z-index: -1;
-}
-.btn-aylen2:hover:before {
-    -moz-transform: scale(0);
-	-webkit-transform: scale(10);
-	transform: scale(0);
-}
+
+.btn-default {
+	padding: 10px 22px;
+	border-color: #27e278;
+	border-width: 3px;
+	color: black;
+	background-image: -webkit-linear-gradient(45deg, #27e278 50%, transparent 50%);
+	background-image: linear-gradient(45deg, #27e278 50%, transparent 50%);
+	background-position: 100%;
+	background-size: 400%;
+	-webkit-transition: background 300ms ease-in-out;
+	transition: background 300ms ease-in-out;
+  }
+  .btn-default:hover {
+	background-position: 0;
+  }
+
 .btn-horiz,.btn-horiz2 {
     position: relative;
     transition: all 0.5s ease-in-out;
