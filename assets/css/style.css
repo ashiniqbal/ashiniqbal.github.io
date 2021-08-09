@@ -2945,6 +2945,7 @@ header.sidebar_menu .bottom_content {
 .icon_box,
 .icon_box_content {
 	position: relative;
+	border-radius: 20px;
 }
 .box_icon {
 	position: relative;
@@ -3329,6 +3330,7 @@ header.sidebar_menu .bottom_content {
 	float: left;
 }
 .grid_item img {
+	border-radius: 20px;
     width: 100%;
 	transition: all 0.5s ease-in-out;
 }
