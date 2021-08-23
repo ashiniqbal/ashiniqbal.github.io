@@ -3647,6 +3647,7 @@ header.sidebar_menu .bottom_content {
 }
 .testimonial_box {
 	padding: 20px;
+		border-radius: 5px;
 }
 .testi_meta {
 	text-align: center;
@@ -3658,7 +3659,7 @@ header.sidebar_menu .bottom_content {
 	margin: 0; 
     padding: 6px 16px;
     background: #fff;
-    border-radius: 0;
+    border-radius: 5px;
 	position: absolute;
 	top: 50%;
 	-moz-transform: translateY(-50%);
