@@ -237,7 +237,7 @@ button:focus {
 
 .btn-default {
 	padding: 10px 22px;
-	border-color: #02eeb1;
+	border-color: #00d39b;
 	border-width: 3px;
 	color: black;
 	background-image: -webkit-linear-gradient(45deg, #02eeb1 50%, transparent 50%);
