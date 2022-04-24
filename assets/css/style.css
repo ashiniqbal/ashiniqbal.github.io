@@ -1738,15 +1738,7 @@ header.sidebar_menu .bottom_content {
 	text-indent: 0;
 	transition: all 0.5s ease-in-out;
 }
-.indicators_style1.carousel-indicators li::before {
-	content: "0"counter(step);
-	color: #fff;
-	counter-increment: step;
-	position: static;
-	height: auto;
-	width: auto;
-	margin: 0 10px;
-}
+
 .indicators_style1.carousel-indicators li::after {
 	content: "/";
 	margin: 0 8px;
@@ -2945,6 +2937,7 @@ header.sidebar_menu .bottom_content {
 .icon_box_content {
 	position: relative;
 	border-radius: 20px;
+	height: 300px;
 }
 .box_icon {
 	position: relative;
